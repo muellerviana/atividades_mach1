@@ -5,119 +5,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <style>
-        nav{
-            text-align: center;
-            
-        }
+        
+         article, form, .pdg {
+            padding: 25px;
+         }
 
-        header{
-            background-color: rgb(221, 221, 221);
-            
-        }
+         .bgl {
+            background-color: rgba(167, 16, 16, 0.616);
+         }
 
-        section {
-            display: flex;
-            background-color: rgba(216, 235, 240, 0.281);
-        }
-        main {
-            flex: 1;
-            padding: 2vh;
-
-        }
-        aside {
-            height: 80vh;
-            background-color: rgb(231, 219, 178);
-            width:18vw;
-            padding: 3vh;
-        }
+         a{
+            padding: 30px;
+         }
     </style>
 </head>
 <body>
-   <nav>
-       <a href="#cabecalho">Meus dados</a>
-       <a href="#apresentacao">Apresentação </a>
-       <a href="#formacao">Formação </a>
-       <a href="#experiencias">Experiências profissionais</a>
-       <a href="#cursos">Cursos e certificações</a>
-       <a href="video.html" target="_blank">Video de Apresentação</a>
-   </nav>
-
-
-   <header>
-       <div id="cabecalho">
-           <h1>Müller M. Viana</h1>
-           <p>Telefone: 34-993377297</p>
-           <p>E-mail: muellerviana@gmail.com</p>
-       </div>
-
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqyutP-X8fRnC5g19aw6ehaGFfUgcUY09tZ9AQBrSjCX6vpijB6FG0DXo7HrE5WjF8X8&usqp=CAU" alt="retrato-muller">
-   </header>
    
-   <section>
-       <main>
-           <article id="apresentacao">
-               <h2>Apresentação</h2>
-               <p>Na carta da apresentação, vocễ deve falar rapidamente sobre sua experiências, seu conhecimento e suas principais habilidades. Na hora de escrever, preste muitta atenção ...</p>
-           </article>
-
-               <hr>
-            <article id="formacao">
-                <h2>Formação acadêmica</h2>
-                <p>Bacharelado em Engenharia da computação</p>
-            </article>
-
-            <articles id="experiencias">
-                <H2>Experiências profissionais</H2>
-                <P>Pegar do currículo...</P>
-            </articles>
-
-               <hr>
-            <article id="cursos">
-                <H2>Cursos e certificações</H2>
-                <p>Curso Full-Stack Mach1</p>
-            </article>
-       </main>
-
-        <aside>
-            <h2>Skills</h2>
+    <nav class="pdg">
+    <table>
+        <tr>
+            <td><a href="#cabecalho">Meus dados</a> </td>
+            <td><a href="#apresentacao">Apresentação </a></td>
+            <td><a href="#formacao">Formação </a></td>
+            <td><a href="#experiencias">Experiências profissionais</a></td>
+            <td><a href="#cursos">Cursos e certificações</a></td>
+            <td><a href="video.html" target="_blank">Video de Apresentação</a></td>
+        </tr>
+    </table>
+    </nav>
+    <div style="background-color: rgba(253, 220, 220, 0.308);">
+    <section>
+        <table>
+            <tr class="bgl">
+                <td>
+                    <article id="cabecalho">
+                        <h1>Müller M. Viana</h1>
+                        <p>Telefone: 34-999999999 </p>
+                        <p>E-mail: mullerv@gmail.com</p>
+                    </article>
+                </td>
+                <td>
+                    <img src="assets/imagens/mmv_portrait.jpg" alt="retrato-muller" width="300px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <article id="apresentacao">
+                    <h2>Apresentação</h2>
+                    <p> Estou cursanto Engenharia da Computação, além de fazer o curso Full-Stack Mach1, onde estou desenvolvendo minhas haibilidades em HTML, CSS e Javascript. Estou estagiando na Sofi, uma fintech, onde lido com backend, na linguagem Ruby. </p>
+                    </article>
+                </td>
+                <td class="pdg bgl" rowspan="4" style="vertical-align:top;">
+                    <aside>
+                        <h2>Skills</h2>
     
-            <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Git & GitHub</li>
-            </ul>
-        </aside>
-
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Git & GitHub</li>
+                            <li>Ruby on Rails</li>
+                        </ul>
+                    </aside>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <article id="formacao">
+                        <hr>
+                        <h2>Formação acadêmica</h2>
+                        <h3>Bacharelado em Engenharia da Computação (Cursando)</h3>
+                        <p>Instituição de ensino: Unimar</p>
+                    </article>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <article id="experiencias">
+                        <hr>
+                        <H2>Experiências profissionais</H2>
+                        <P>Ruby on Rails Developer & QA (Trainee)</P>
+                    </article>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <article id="cursos">
+                        <hr>
+                        <H2>Cursos e certificações</H2>
+                        <p>Curso Full-Stack Mach1(Cursando)</p>
+                        <p>Curso Básico SQL Udemy <a href="assets/imagens/certificado.webp" download=""> ver certificado </a></p>
+                        <p>Curso Full-Stack Mach1(Cursando)</p>
+                    </article>
+                </td>
+            </tr>
+        </table>
     </section>
-
-    <footer>
-        <h2>Fale comigo por aqui</h2>
-        <form action="/action_page.php" method="get">
-            <label for="fname">Nome</label><br>
-            <input type="text" id="fname" name="fname" placeholder="Escreva seu nome">
-            <br>
-            <br>
-            <label for="lname">Email</label> <br>
-            <input type="text" id="femail" name="femail" placeholder="Seu melhor email">
-            <br>
-            <br>
-            <label for="fname">Telefone</label><br>
-            <input type="text" id="phone" name="phone" placeholder="Seu telefone">
-            <br>
-            <br>
-            <label for="fname">Sua mensagem (até 300 caracteres):</label><br>
-            <input type="text" id="msg" name="msg" placeholder="Quel o motivo do seu contato?" maxlength="300">
-            <br>
-
-            <!-- <textarea id="w3review" name="w3review" rows="4" cols="50">
-                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
-                </textarea> -->
-                
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
+    
+    <footer style="background-color: rgb(146, 146, 146);">
+        <table class="pdg">
+            <form action="https://www.w3schools.com//action_page.php" target="_blank">
+                <tr>
+                <th><h2>Fale comigo por aqui</h2></th>
+                </tr>
+                <tr>
+                <td><label for="name">Nome</label><br>
+                    <input type="text" id="name" name="name" placeholder="Escreva seu nome"></td>
+                <td rowspan="3">
+                    <label for="msg">Sua mensagem (até 300 caracteres):</label><br>
+                    <input type="text" id="msg" name="msg" placeholder="Qual o motivo do seu contato?" maxlength="300" size="80" style="height:100px">
+                </td>
+                </tr>
+                <tr>
+                <td><label for="email">Email</label> <br>
+                    <input type="text" id="email" name="email" placeholder="Seu melhor email">
+                </td>
+                </tr>
+                <tr>
+                    <td> <label for="phone">Telefone</label><br>
+                        <input type="text" id="phone" name="phone" placeholder="Seu telefone">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enviar"></td>
+                </tr>
+            </form>            
+        </table>
     </footer>
+   </div>
 </body>
 </html>
