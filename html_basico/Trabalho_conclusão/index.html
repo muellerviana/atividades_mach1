@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            text-align: center;
+            
+        }
+
+        header{
+            background-color: rgb(221, 221, 221);
+            
+        }
+
+        section {
+            display: flex;
+            background-color: rgba(216, 235, 240, 0.281);
+        }
+        main {
+            flex: 1;
+            padding: 2vh;
+
+        }
+        aside {
+            height: 80vh;
+            background-color: rgb(231, 219, 178);
+            width:18vw;
+            padding: 3vh;
+        }
+    </style>
+</head>
+<body>
+   <nav>
+       <a href="#cabecalho">Meus dados</a>
+       <a href="#apresentacao">Apresentação </a>
+       <a href="#formacao">Formação </a>
+       <a href="#experiencias">Experiências profissionais</a>
+       <a href="#cursos">Cursos e certificações</a>
+       <a href="video.html" target="_blank">Video de Apresentação</a>
+   </nav>
+
+
+   <header>
+       <div id="cabecalho">
+           <h1>Müller M. Viana</h1>
+           <p>Telefone: 34-993377297</p>
+           <p>E-mail: muellerviana@gmail.com</p>
+       </div>
+
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHqyutP-X8fRnC5g19aw6ehaGFfUgcUY09tZ9AQBrSjCX6vpijB6FG0DXo7HrE5WjF8X8&usqp=CAU" alt="retrato-muller">
+   </header>
+   
+   <section>
+       <main>
+           <article id="apresentacao">
+               <h2>Apresentação</h2>
+               <p>Na carta da apresentação, vocễ deve falar rapidamente sobre sua experiências, seu conhecimento e suas principais habilidades. Na hora de escrever, preste muitta atenção ...</p>
+           </article>
+
+               <hr>
+            <article id="formacao">
+                <h2>Formação acadêmica</h2>
+                <p>Bacharelado em Engenharia da computação</p>
+            </article>
+
+            <articles id="experiencias">
+                <H2>Experiências profissionais</H2>
+                <P>Pegar do currículo...</P>
+            </articles>
+
+               <hr>
+            <article id="cursos">
+                <H2>Cursos e certificações</H2>
+                <p>Curso Full-Stack Mach1</p>
+            </article>
+       </main>
+
+        <aside>
+            <h2>Skills</h2>
+    
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </aside>
+
+    </section>
+
+    <footer>
+        <h2>Fale comigo por aqui</h2>
+        <form action="/action_page.php" method="get">
+            <label for="fname">Nome</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Escreva seu nome">
+            <br>
+            <br>
+            <label for="lname">Email</label> <br>
+            <input type="text" id="femail" name="femail" placeholder="Seu melhor email">
+            <br>
+            <br>
+            <label for="fname">Telefone</label><br>
+            <input type="text" id="phone" name="phone" placeholder="Seu telefone">
+            <br>
+            <br>
+            <label for="fname">Sua mensagem (até 300 caracteres):</label><br>
+            <input type="text" id="msg" name="msg" placeholder="Quel o motivo do seu contato?" maxlength="300">
+            <br>
+
+            <!-- <textarea id="w3review" name="w3review" rows="4" cols="50">
+                At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+                </textarea> -->
+                
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </footer>
+</body>
+</html>
