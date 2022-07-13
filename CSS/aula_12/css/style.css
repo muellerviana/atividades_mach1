@@ -1,0 +1,55 @@
+/* 
+Combinadores
+Seletores de irmãos adjacentes
+O combinador + seleciona os nós que seguem imediatamente o elemento especificado anteriormente.
+Sintaxe: A + B
+Exemplo: ul + li irá corresponder a qualquer elemento <li> que segue imediatamente após um elemento <ul>.
+Seletores gerais de irmãos
+O combinador ~ seleciona os nós que seguem (não necessariamente imediatamente) o elemento especificado anteriormente, se ambos os elementos compartilham o mesmo pai.
+Sintaxe: A ~ B
+Exemplo: p ~ span irá corresponder a todo elemento <span> que seguir um elemento <p> dentro de um mesmo elemento pai.
+Seletor de filhos
+O combinador > selecina nós que são filhos diretos do elemento especificado anteriormente.
+Sintaxe: A > B
+Exemplo: ul > li irá corresponder a todo elemento <li> que estiver diretamente dentro de um elemento <ul> especificado.
+Seletor de descendentes
+O combinador   seleciona os nós que são filhos do elemento especificado anteriormente (não é necessário que seja um filho direto).
+Sintaxe: A B
+Exemplo: div span irá corresponder a todo e qualquer elemento <span> que estiver dentro do elemento <div>.
+*/
+div div{
+  background-color: blueviolet;
+
+  
+}
+
+button {
+  background-blend-mode: color-burn;
+}
+
+article div button{
+  
+  }
+
+  h1 ~ p {
+    background-color: rgb(114, 139, 160);
+  }
+
+  h1 + p
+
+  div > p
+
+  
+
+
+
+  /* important!  ==> Fica com a hierarquia 
+  
+  
+  
+  -------------------
+  
+  
+  os seletores somam pesos 
+  
+  */
