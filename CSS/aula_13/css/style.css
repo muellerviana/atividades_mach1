@@ -1,4 +1,4 @@
-h1 { font-size: 42px;}
+/* h1 { font-size: 42px;}
 
 h2{ font-size: 36px;}
 
@@ -6,4 +6,55 @@ h3 { font-size: 28px;}
 
 article { background-color: yellow;}
 
-p { background-color: blue;}
+p { background-color: blue;} */
+
+/* 
+h3 { font-size:28px;}
+
+h1, h2, h3, small, .parag {
+  background-color: red;
+  border: solid black;
+}
+
+section article p { color: black;}
+
+*/
+
+a:active {
+  background-color: red;
+} 
+
+a:visited {
+  
+}
+a:hover {
+  background-color: blueviolet;
+}
+
+
+
+/* Pseudoclasses:
+
+hiperlink: tem, por padrão, uma pseudoclasse que altera o cursor.
+webkit-any-link
+
+
+a:active {
+  background-color: red;
+} 
+
+a:visited {
+  
+}
+a:hover {
+  background-color: blueviolet;
+}
+
+
+input:focus-visible
+
+*/
+
+
+
+/* pseudoelementos */
