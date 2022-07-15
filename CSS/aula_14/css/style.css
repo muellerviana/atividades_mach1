@@ -1,0 +1,20 @@
+div {
+  background-color: blueviolet;
+  height: 300px;
+  width: 300px;
+  padding: 16px;
+  border: red 3px solid;
+  margin: 24px;
+
+  border-radius: 100%;
+
+
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+
+
