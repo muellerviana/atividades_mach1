@@ -6,3 +6,27 @@
  * Entre os números 1 e 10: 1,2,3,4,5,6,7,8,9,10 
  *
  */
+
+const prompt = require('prompt-sync')();
+
+console.log("Digite um número inteiro");
+let valorUsuario = Number(prompt());
+
+if (!Number.isInteger(valorUsuario)) {
+  return console.log("Esse número não é um número inteiro!!!");
+}
+
+
+if (valorUsuario < 1 || valorUsuario > 1000) {
+  return console.log("Esse numero não está entre o intervalo de 1 e 1k")
+}
+
+
+let textoSaida = `Entre os numeros 1 e ${valorUsuario}:`;
+
+for(let numero = 1; numero <= valorUsuario; numero++) {
+  textoSaida += `${numero}`;
+ 
+}
+
+console.log(textoSaida)

@@ -12,3 +12,22 @@
  * -------------------------
  * Nesse mês tenho que pagar 7 contas totalizando R$ 4933.02 ;(
  */
+
+
+ const prompt = require('prompt-sync')();
+ let descricaoConta;
+ let valorConta;
+ let outraConta = 'S';
+ 
+ console.log("---CONTA---");
+ while (outraConta === 'S') {
+     
+     console.log('Digita a descrição da conta: ');
+     descricaoConta = prompt();
+ 
+     console.log('Digita o valor da conta: ');
+     valorConta = Number(prompt());
+ 
+     console.log('Deseja inserir outra conta? S/N');
+     outraConta = prompt();
+ }
