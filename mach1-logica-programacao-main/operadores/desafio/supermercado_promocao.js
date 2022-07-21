@@ -11,18 +11,24 @@
  * A 3a unidade do Creme Dental Boldate saí por R$ 4.00
  */
 
-const prompt = require('prompt-sync')();
-console.log("Digite o nome do produto: ");
-let nomeProduto = prompt();
+// const prompt = require('prompt-sync')();
+// console.log("Digite o nome do produto: ");
+// let nomeProduto = prompt();
 
-console.log("Digite o preço do produto: ");
-let precoProduto = Number(prompt());
+// console.log("Digite o preço do produto: ");
+// let precoProduto = Number(prompt());
 
-let precoUltimoItem = precoProduto * 0.5;
+// let precoUltimoItem = precoProduto * 0.5;
 
-let calculoPromocaoItem = precoProduto * 2 + precoUltimoItem;
+// let calculoPromocaoItem = precoProduto * 2 + precoUltimoItem;
 
-console.log(nomeProduto + ": Promoção leve 3 por R$ " + calculoPromocaoItem.toFixed(2));
-console.log("A 3a unidade do "+nomeProduto+" saí por R$ " + precoUltimoItem.toFixed(2));
+// console.log(nomeProduto + ": Promoção leve 3 por R$ " + calculoPromocaoItem.toFixed(2));
+// console.log("A 3a unidade do "+nomeProduto+" saí por R$ " + precoUltimoItem.toFixed(2));
 
 //console.log(`${nomeProduto}: Promoção leve 3 por R$ ${calculoPromocaoItem.toFixed(2)}`);
+
+ const prompt = require('prompt-sync')();
+
+
+ 
+
