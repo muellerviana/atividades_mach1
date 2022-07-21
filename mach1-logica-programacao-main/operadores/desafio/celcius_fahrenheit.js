@@ -12,3 +12,5 @@ let celciusParaFahrenheit = (celcius * 1.8) + 32;
 
 console.log("O valor de " + celcius + " celcius convertido para Fahrenheit é: ");
 console.log(celciusParaFahrenheit.toFixed(1)+" Fahrenheit");
+
+
